@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src ="main.js"></script>
+	<link rel="stylesheet"  href="main.css">
+</head>
+
+<body>
+	<div class="form1">
+		
+	<form class="f1">
+		<div><p>Введите 5 чисел</p></div>
+		<div>
+		<input id="N1" type="naumber">
+		<input id="N2" type="naumber">
+		<input id="N3" type="naumber">
+		<input id="N4" type="naumber">
+		<input id="N5" type="naumber">
+		</div>
+		
+		<div class="knopka">
+			<input type="button" name="Ras" value="Расcчитать" onclick="HideMin();">
+			<input type="text" id="res1">
+		</div>	
+		<div class="knopka"><input type="reset" name="Ochist" value="Очистить" ></div>
+	</form>
+
+<div class="f2">
+	<form>
+		<div><p>Введите число, которому необходимо рассчитать факториал</p></div>
+	<div class="form2">
+		
+		<div>
+			<input type="number" id = "f" min = "1" pattern="[0-9]{10}" required>
+		</div>
+	
+		<div>
+			<input type="number" id = "Fres">
+		</div>
+	</div>
+	</form>
+
+	<div class="knopka">
+	<button id = "f11111" onclick="CalcChetFact();">Расcчитать</button>
+	<button id="f1" onclick="ClearF();"> Очистить</button> </div>
+	</div>
+	</div>
+</body>
+</html>
